@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>AutomationLib</id>
+    <version>1.0.5</version>
+    <authors>AutomationLib</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="4df842daa43ecb19cc1f2b1b5a037f1e3f1b603d" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="ConverterLib" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
