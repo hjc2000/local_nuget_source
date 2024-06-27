@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>JCNET</id>
+    <version>3.0.0</version>
+    <authors>JCNET</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="ee68c8cea17e0f2d859c5a4e3c07eec6735a24e7" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="System.IO.Ports" version="8.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
