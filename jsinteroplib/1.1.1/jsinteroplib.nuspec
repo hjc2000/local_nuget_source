@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>JSInteropLib</id>
+    <version>1.1.1</version>
+    <authors>JSInteropLib</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="cb745f3a99793374b50258186e75cce81c904c45" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="JCNET" version="7.3.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="8.0.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
