@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Icon</id>
+    <version>1.0.7</version>
+    <authors>Icon</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="e200454494fa13451a4a0c02275b1503b6851e6a" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="8.0.8" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
