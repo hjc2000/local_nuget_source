@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>JCNET</id>
+    <version>14.1.13</version>
+    <authors>JCNET</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="7df68ab4af96bca51e8793912dccd89ab87b9701" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="8.0.1" exclude="Build,Analyzers" />
+        <dependency id="NLua" version="1.7.3" exclude="Build,Analyzers" />
+        <dependency id="System.IO.Ports" version="8.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
