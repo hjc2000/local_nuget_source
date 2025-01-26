@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>RazorUI</id>
+    <version>6.0.0</version>
+    <authors>RazorUI</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="c111fd9908dd7dc1d6773d513e46707c7ec56cd0" />
+    <dependencies>
+      <group targetFramework="net9.0">
+        <dependency id="BlazorMonaco" version="3.3.0" exclude="Build,Analyzers" />
+        <dependency id="Icon" version="1.0.17" exclude="Build,Analyzers" />
+        <dependency id="JCNET" version="17.0.0" exclude="Build,Analyzers" />
+        <dependency id="JSInteropLib" version="1.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="9.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
