@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>JCWPF</id>
+    <version>1.0.0</version>
+    <authors>JCWPF</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="4cd314ae33da4f4f1e5816f495f3bc1da313b87a" />
+    <dependencies>
+      <group targetFramework="net9.0-windows7.0">
+        <dependency id="Microsoft.AspNetCore.Components.WebView.Wpf" version="9.0.30" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection" version="9.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net9.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+</package>
